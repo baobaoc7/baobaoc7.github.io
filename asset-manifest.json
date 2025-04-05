@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/baochang-portfolio/static/css/main.2051ad67.css",
+    "main.js": "/baochang-portfolio/static/js/main.f0118e93.js",
+    "index.html": "/baochang-portfolio/index.html",
+    "main.2051ad67.css.map": "/baochang-portfolio/static/css/main.2051ad67.css.map",
+    "main.f0118e93.js.map": "/baochang-portfolio/static/js/main.f0118e93.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2051ad67.css",
+    "static/js/main.f0118e93.js"
+  ]
+}
