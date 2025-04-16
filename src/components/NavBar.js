@@ -58,7 +58,16 @@ export const NavBar = () => {
                 onClose={handleClose}
                 MenuListProps={{
                     'aria-labelledby': 'basic-button',
-                }}
+                    sx: {
+                      color: 'white', // text color
+                    },
+                  }}
+                  PaperProps={{
+                    sx: {
+                      backgroundColor: '#333', // background color
+                      color: 'white', // fallback text color
+                    },
+                  }}
             >
                 <MenuItem onClick={handleClose}>UI/UX</MenuItem>
                 <MenuItem onClick={handleClose}>Programming</MenuItem>
