@@ -11,7 +11,7 @@ const AboutMe = () => {
       <div className='aboutmedescription'>
         <Profile className="profile-svg" style={{ width: "250px", height: "auto" }} />
         <div className='aboutmedescriptiontext'>
-          <span style={{ fontSize: '16px' }}>Hi! My name is</span>
+          <span style={{ fontSize: '20px' }}>Hi! My name is</span>
           <h1 style={{ display: 'inline', margin: 0 }}> Bao Chang,</h1>
           <p>a UX/UI designer, front-end developer, and artist!</p>
           <p>

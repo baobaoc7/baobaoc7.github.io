@@ -7,13 +7,10 @@
     text-align: center;
     margin: 10px;
 }
-
-.image{
-    width: 250px;
-    height: 200px;
-}
-
-#basic-menu{
-    /* background-color: rgba(255, 255, 255, 0.1); */
-    color: black;
-}
+.custom-card {
+    background: rgba(13, 10, 10, 0.9); /* matches #0D0A0A */
+    color: white;
+    border: none;
+    box-shadow: 0 4px 12px rgba(60, 64, 98, 0.3);
+    backdrop-filter: blur(4px); /* optional soft glassy effect */
+  }
