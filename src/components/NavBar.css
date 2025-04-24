@@ -1,33 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
 .nav-menu{
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-#menu-button {
+.nav-menu li{
+    padding: 0 1rem;
+}
+
+.nav-menu li a{
     font-size: 1.2rem;
-    font-family: "Libre Baskerville", serif;
-    color: white !important;
+    font-weight: 500;
 }
 
-@media screen and (max-width: 1040px){
+.menu-icon{
+    display: none;
+}
+
+@media screen and (max-width: 1000px){
     .nav-menu{
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 100%;
         height: 100vh;
-        background: rgba(0,0,0,0.9);
+        background: rgba(255, 255, 255, 0.1);
         position: absolute;
         top: 0;
-        left: 0;
+        left: -100%;
         z-index: -3;
+        transition: 0.3s;
     }
 
-    #menu-button{
+    .nav-menu.active{
+        left: 0;
+    }
+    .nav-menu li{
         padding: 1rem 0;
+    }
+    
+    .nav-menu li a{
         font-size: 2rem;
+    }
+
+    .menu-icon{
+        display: initial;
     }
 }

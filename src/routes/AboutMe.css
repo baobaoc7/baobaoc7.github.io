@@ -1,0 +1,11 @@
+.aboutmedescription{
+    display: flex;
+    flex-direction: row;
+    text-wrap: wrap;
+}
+
+.profile-svg{
+    margin-right: 70px;
+    height: auto;
+    min-width: 250px;
+}

@@ -4,7 +4,8 @@ import { NavBar } from '../components/NavBar'
 const Resume = () => {
     return (
         <>
-            <NavBar />
+            <NavBar/>
+            <hr/>
             <h1>Resume</h1>
         </>
     )

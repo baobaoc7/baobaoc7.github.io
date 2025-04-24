@@ -6,7 +6,8 @@ import { ProjectCard } from '../components/ProjectCard'
 const Projects = () => {
     return (
         <>
-            <NavBar></NavBar>
+            <NavBar/>
+            <hr/>
             <h1>Projects</h1>
             <p>Here is a collection of projects that I have worked on so far.</p>
             <div className="project-cards-container">
