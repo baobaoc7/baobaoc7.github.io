@@ -1,7 +1,7 @@
 .aboutmedescription{
     display: flex;
     flex-direction: row;
-    text-wrap: wrap;
+    align-items: center;
 }
 
 .profile-svg{
