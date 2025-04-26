@@ -33,9 +33,10 @@ body{
 h1{
   text-align: center;
   color: #A1ABFC !important;
+  margin: 2%;
 }
 
-h1,h4,p,a{
+h1, h2, h4,p,a{
   color: white;
   text-decoration: none;
 }
@@ -51,11 +52,12 @@ ul{
 
 hr {
   border: none;
-  height: 2px;
+  height: 1px;
   background-color: rgba(161, 171, 252, 0.2);
   margin-left: -10%;
   margin-right: -10%;
-  filter: blur(2px);
+  filter: blur(1px);
+  margin-bottom: 2%;
 }
 
 p{

@@ -15,6 +15,12 @@
     padding: 0 1rem;
 }
 
+.nav-menu li:hover {
+    color: #A1ABFC; /* example hover color */
+    transform: scale(1.05); /* slight zoom effect */
+    cursor: pointer; /* makes it feel clickable */
+  }
+
 .nav-menu li a{
     font-size: 1.2rem;
     font-weight: 500;
