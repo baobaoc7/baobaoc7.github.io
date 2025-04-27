@@ -14,15 +14,14 @@
 
 .nav-menu li {
     padding: 0 1rem;
+    transform: scale(1);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
 .nav-menu li:hover {
-    color: #A1ABFC;
-    /* example hover color */
     transform: scale(1.05);
-    /* slight zoom effect */
+    color: #A1ABFC;
     cursor: pointer;
-    /* makes it feel clickable */
 }
 
 .nav-menu li a {
