@@ -19,14 +19,17 @@
 }
 
 .nav-menu li:hover {
-    transform: scale(1.05);
-    color: #A1ABFC;
+    transform: scale(1.1);
     cursor: pointer;
 }
 
 .nav-menu li a {
     font-size: 1.2rem;
     font-weight: 500;
+}
+
+.nav-menu li:hover a {
+    color: #A1ABFC;
 }
 
 .menu-icon {

@@ -5,13 +5,14 @@ import "./Projects.css"
 import SonarCardImg from "../assets/SonarCardImg.png"
 import MomentumCardImg from "../assets/MomentumCardImg.png"
 import PantryPalImg from "../assets/PantryPalImg.png"
+import BjjCardImg from "../assets/BjjCardImg.png"
 
 
 const Projects = () => {
     return (
         <>
-            <NavBar/>
-            <hr/>
+            <NavBar />
+            <hr />
             <h1>UI/UX Projects</h1>
             <div className="project-cards-container">
                 <ProjectCard
@@ -29,6 +30,15 @@ const Projects = () => {
                     name="Pantry Pal"
                     imageUrl={PantryPalImg}
                     description="Meal suggestions tailored to meet your needs"
+                />
+            </div>
+            <h1>Programming Projects</h1>
+            <div className="project-cards-container">
+                <ProjectCard
+                    name="BJJ RollTrack"
+                    imageUrl={BjjCardImg}
+                    description="Digitalize gym management for improved performance"
+                    pageLink="/"
                 />
             </div>
         </>
