@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5d5cab94.css",
-    "main.js": "/static/js/main.199ad108.js",
+    "main.css": "/static/css/main.a8cefe30.css",
+    "main.js": "/static/js/main.fd7c8ec4.js",
     "static/media/PantryPalImg.png": "/static/media/PantryPalImg.4bf2c60c801741fd81e8.png",
     "static/media/SonarCompetitiveAnalysis.png": "/static/media/SonarCompetitiveAnalysis.8684391cbbf119b1238b.png",
     "static/media/josey-persona.png": "/static/media/josey-persona.6edcd446b90843bcfdc6.png",
@@ -10,12 +10,15 @@
     "static/media/SonarCardImg.png": "/static/media/SonarCardImg.cd888d12375c29de13f2.png",
     "static/media/MomentumCardImg.png": "/static/media/MomentumCardImg.07fe4e8e998c6aee00c5.png",
     "static/media/AboutMeAvatar.svg": "/static/media/AboutMeAvatar.e517ddd1dfcfb2f64f296455ed012ce1.svg",
+    "static/media/Prototype1-2.png": "/static/media/Prototype1-2.b0902fb699060de225ea.png",
+    "static/media/Prototype1-3.png": "/static/media/Prototype1-3.97c84f25e64acabc9aa7.png",
+    "static/media/Prototype1-1.png": "/static/media/Prototype1-1.2103ab324fc44066dbd7.png",
     "index.html": "/index.html",
-    "main.5d5cab94.css.map": "/static/css/main.5d5cab94.css.map",
-    "main.199ad108.js.map": "/static/js/main.199ad108.js.map"
+    "main.a8cefe30.css.map": "/static/css/main.a8cefe30.css.map",
+    "main.fd7c8ec4.js.map": "/static/js/main.fd7c8ec4.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d5cab94.css",
-    "static/js/main.199ad108.js"
+    "static/css/main.a8cefe30.css",
+    "static/js/main.fd7c8ec4.js"
   ]
 }
