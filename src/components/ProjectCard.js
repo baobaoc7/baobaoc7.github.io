@@ -10,9 +10,9 @@ export const ProjectCard = ({ name, imageUrl, description }) => {
         <div className="card-overlay-container">
             <img src={imageUrl} alt="..." className="card-overlay-image" />
             <div className="card-overlay-text-right">
-                <h5 className="card-title">Card Title</h5>
+                <h5 className="card-title">{name}</h5>
                 <p className="card-text">
-                    This is a wider card with supporting text below as a natural lead-in to additional content.
+                    {description}
                 </p>
                 <button className='case-study-button'><p className="button-text">View Case Study</p></button>
             </div>

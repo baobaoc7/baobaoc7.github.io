@@ -1,37 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    z-index: 999999;
 }
 
-.nav-menu{
+.nav-menu {
     display: flex;
 }
 
-.nav-menu li{
+.nav-menu li {
     padding: 0 1rem;
 }
 
 .nav-menu li:hover {
-    color: #A1ABFC; /* example hover color */
-    transform: scale(1.05); /* slight zoom effect */
-    cursor: pointer; /* makes it feel clickable */
-  }
+    color: #A1ABFC;
+    /* example hover color */
+    transform: scale(1.05);
+    /* slight zoom effect */
+    cursor: pointer;
+    /* makes it feel clickable */
+}
 
-.nav-menu li a{
+.nav-menu li a {
     font-size: 1.2rem;
     font-weight: 500;
 }
 
-.menu-icon{
+.menu-icon {
     display: none;
 }
 
-@media screen and (max-width: 1000px){
-    .nav-menu{
+@media screen and (max-width: 1000px) {
+    .nav-menu {
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -43,20 +47,26 @@
         left: -100%;
         z-index: -3;
         transition: 0.3s;
+        z-index: 998;
+        background-color: black;
+        opacity: 0.85;
     }
 
-    .nav-menu.active{
+    .nav-menu.active {
         left: 0;
     }
-    .nav-menu li{
+
+    .nav-menu li {
         padding: 1rem 0;
     }
-    
-    .nav-menu li a{
+
+    .nav-menu li a {
         font-size: 2rem;
     }
 
-    .menu-icon{
+    .menu-icon {
         display: initial;
+        z-index: 999;
+
     }
 }

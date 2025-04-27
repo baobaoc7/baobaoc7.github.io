@@ -14,9 +14,9 @@ export const NavBar = () => {
                 <h2>Bao Chang</h2>
             </Link>
             <ul className={click ? "nav-menu active" :  "nav-menu"}>
-                <li><Link to="/">About Me</Link></li>
-                <li><Link to="/projects">Projects</Link></li>
-                <li><Link to="/resume">Resume</Link></li>
+                <li><Link to="/" style={{ fontWeight: 'normal' }}>About Me</Link></li>
+                <li><Link to="/projects" style={{ fontWeight: 'normal' }}>Projects</Link></li>
+                <li><Link to="/resume" style={{ fontWeight: 'normal' }}>Resume</Link></li>
             </ul>
             <div className='menu-icon' onClick={ handleClick }>
                 {click ? (

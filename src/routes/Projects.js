@@ -2,6 +2,9 @@ import React from 'react'
 import { NavBar } from '../components/NavBar'
 import { ProjectCard } from '../components/ProjectCard'
 import "./Projects.css"
+import SonarCardImg from "../assets/SonarCardImg.png"
+import MomentumCardImg from "../assets/MomentumCardImg.png"
+import PantryPalImg from "../assets/PantryPalImg.png"
 
 
 const Projects = () => {
@@ -12,15 +15,20 @@ const Projects = () => {
             <h1>UI/UX Projects</h1>
             <div className="project-cards-container">
                 <ProjectCard
-                    name="Pantry Pal"
-                    imageUrl="https://picsum.photos/seed/picsum/200/300"
-                    description="Have you ever found yourself staring at your fridge, unsure of what to cook for dinner? A staggering 62% of Americans have reported feeling stressed about meal preparation. They cite lack of time, inspiration, or ingredients as their main challenges. Recognizing this common struggle, my team, Silent Strivers, and I worked together to design an app that addresses and solves this issue. Our goal was to provide users with a convenient tool for brainstorming meal ideas effortlessly."
+                    name="Sonar Mental Health | Onboarding"
+                    imageUrl={SonarCardImg}
+                    description="Redesigning Sonar’s onboarding process to improve user retention"
                 />
-                {/* <ProjectCard
-                    name="Sonar Mental Health - Improved Onboarding"
-                    imageUrl="https://picsum.photos/seed/picsum/200/300"
-                    description="Have you ever found yourself staring at your fridge, unsure of what to cook for dinner? A staggering 62% of Americans have reported feeling stressed about meal preparation. They cite lack of time, inspiration, or ingredients as their main challenges. Recognizing this common struggle, my team, Silent Strivers, and I worked together to design an app that addresses and solves this issue. Our goal was to provide users with a convenient tool for brainstorming meal ideas effortlessly."
-                /> */}
+                <ProjectCard
+                    name="Momentum | UCI Designation 2025"
+                    imageUrl={MomentumCardImg}
+                    description="productivity in motion - stay on track together by competing"
+                />
+                <ProjectCard
+                    name="Pantry Pal"
+                    imageUrl={PantryPalImg}
+                    description="productivity in motion - stay on track together by competing"
+                />
             </div>
         </>
     )
