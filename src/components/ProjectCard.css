@@ -11,7 +11,7 @@
 }
 
 .card-overlay-container:hover {
-  transform: scale(1.05);
+  transform: scale(1.05) !important;
   box-shadow: 0 12px 30px rgba(60, 64, 98, 0.5);
 }
 
