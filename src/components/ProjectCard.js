@@ -1,10 +1,8 @@
 import React from 'react'
-import { Box } from '@mui/material'
 import "./ProjectCard.css"
-import Card from 'react-bootstrap/Card';
-import ListGroup from 'react-bootstrap/ListGroup';
+import { Link } from 'react-router-dom';
 
-export const ProjectCard = ({ name, imageUrl, description }) => {
+export const ProjectCard = ({ name, imageUrl, description, pageLink }) => {
     return (
 
         <div className="card-overlay-container">
@@ -14,7 +12,7 @@ export const ProjectCard = ({ name, imageUrl, description }) => {
                 <p className="card-text">
                     {description}
                 </p>
-                <button className='case-study-button'><p className="button-text">View Case Study</p></button>
+                <Link to={pageLink}><button className='case-study-button'><p className="button-text">View Case Study</p></button></Link>
             </div>
         </div>
 

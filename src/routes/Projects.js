@@ -18,16 +18,17 @@ const Projects = () => {
                     name="Sonar Mental Health | Onboarding"
                     imageUrl={SonarCardImg}
                     description="Redesigning Sonar’s onboarding process to improve user retention"
+                    pageLink="/projects/sonar-onboarding"
                 />
                 <ProjectCard
                     name="Momentum | UCI Designation 2025"
                     imageUrl={MomentumCardImg}
-                    description="productivity in motion - stay on track together by competing"
+                    description="Productivity in motion - stay on track together by competing"
                 />
                 <ProjectCard
                     name="Pantry Pal"
                     imageUrl={PantryPalImg}
-                    description="productivity in motion - stay on track together by competing"
+                    description="Meal suggestions tailored to meet your needs"
                 />
             </div>
         </>

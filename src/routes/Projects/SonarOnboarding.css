@@ -1,0 +1,50 @@
+.project-body-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+.project-title-description {
+    font-size: 20px;
+}
+
+.project-body {
+    font-size: 15px !important;
+}
+
+.user-story-container {
+    display: flex;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.user-story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    /* space between text and image */
+    margin: 1rem;
+    /* space between each story */
+}
+
+.user-story p {
+    flex: 1;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.user-story img {
+    max-width: 100%;
+    /* adjust image size */
+    height: auto;
+    border-radius: 0.5rem;
+    /* optional, if you want rounded images */
+}

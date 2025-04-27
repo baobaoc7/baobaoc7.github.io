@@ -11,6 +11,7 @@
     min-width: 300px;
 }
 
-p{
+.aboutme-p {
+    margin-bottom: 30px;
     font-size: 20px;
 }
