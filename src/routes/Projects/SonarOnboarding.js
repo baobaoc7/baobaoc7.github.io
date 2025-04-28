@@ -26,9 +26,9 @@ import interview2 from "../../assets/sonarinterviewsr2.png"
 const SonarOnboarding = () => {
     useEffect(() => {
         AOS.init({
-            duration: 800, // animation duration
-            easing: 'ease-in-out', // how smooth
-            once: true, // only animate once
+            duration: 800,
+            easing: 'ease-in-out',
+            once: false, 
         });
     }, []);
     return (
@@ -43,7 +43,8 @@ const SonarOnboarding = () => {
                 <section>
                     <p className='no-margin-p'>Role: Team Lead</p>
                     <p className='no-margin-p'>Team: Tea-m-Boba</p>
-                    <p className='no-margin-p'>Tools: Figma, FigJam, Google Slides, Google Forms, Google Docs, Duration: January - March 2025</p>
+                    <p className='no-margin-p'>Tools: Figma, FigJam, Google Slides, Google Forms, Google Docs</p>
+                    <p className='no-margin-p'>Duration: January - March 2025</p>
                 </section>
                 <section>
                     <h2>Background and Identifying the Problem</h2>
@@ -57,7 +58,7 @@ const SonarOnboarding = () => {
                 <section>
                     <h2>Competitive Analysis</h2>
                     <p>After identifying our problem, it was time to start the UX process. My team and I looked at 5 similar applications and compared their features with each other. I focused on two applications: GoodTherapy and Betterhelp. Each platform had their limitations, whether they were supported by AI or connected users with licensed mental health professionals. Cost, privacy measures, and user reviews also varied depending on the application. We discovered that half of the applications connect users with real, licensed therapists to provide the utmost support. The other half used AI chatbots with some also having limited licensed therapist services. This calls for a need for a hybrid platform that combines both AI and real-human support which is where Sonar excells.</p>
-                    <img src={CompetitiveAnalysis} data-aos="fade-up" />
+                    <img src={CompetitiveAnalysis} alt="Competitive Analysis" data-aos="fade-up" />
                 </section>
                 <section data-aos="fade-up">
                     <h2>User Stories and Personas</h2>
@@ -99,7 +100,7 @@ const SonarOnboarding = () => {
                     <p>The interview itself is broken into three parts. First, I presented to my interviewees two versions of the onboarding process: my team’s mockup and Sonar’s original process. I had the interviewees try to navigate each prototype without directions so that I can look out for any confusion, pauses, frustrations, or any other reactions. After interacting with both prototypes, I asked a series of open-ended questions about their experiences. Lastly, I asked the interviewees to reflect on the strengths and weaknesses of each prototype and select the one they preferred.</p>
                     <p>Once the entire team has conducted their interviews, we came together to synthesize all of the feedback in an 
                         <a href="https://www.figma.com/board/VWexegwmbAU61oARhDfcIm/172-Interview-Takeaways?node-id=0-1&t=nvYnQUvSm9MQGrf3-1" className='a-project-links'> affinity diagram</a>. Overall, opinions were split but most preferred Sonar’s onboarding for straightforwardness despite liking a chat styled process. Based on this, we made the decision to follow Sonar’s style and focus on identifying opportunities for improvement.</p>
-                    <img src={interview1} alt='Interview Affinity Diagram' style={{width: '60%'}}/>
+                    <img src={interview1} alt='Interview Affinity Diagram 1' style={{width: '60%'}}/>
                 </section>
                 <section data-aos="fade-up">
                     <h2>Prototype #2</h2>
@@ -112,28 +113,28 @@ const SonarOnboarding = () => {
                         <li>Add more diverse input methods such as sliders, date scroll, dropdown menus, etc</li>
                     </ul>
                     <div className="flex-row-container">
-                        <img src={prototype2f1} alt="Prototype #1 Welcome Page" style={{width: '17%'}}/>
-                        <img src={prototype2f2} alt="Prototype #1 Conversation" style={{width: '17%'}}/>
-                        <img src={prototype2f3} alt="Prototype #1 Conversation" style={{width: '17%'}}/>
-                        <img src={prototype2f4} alt="Prototype #1 Conversation" style={{width: '17%'}}/>
-                        <img src={prototype2f5} alt="Prototype #1 Conversation" style={{width: '17%'}}/>
+                        <img src={prototype2f1} alt="Prototype #2 Meet Sonny" style={{width: '17%'}}/>
+                        <img src={prototype2f2} alt="Prototype #2 Data Privacy" style={{width: '17%'}}/>
+                        <img src={prototype2f3} alt="Prototype #2 Rate Mental Wellbeing" style={{width: '17%'}}/>
+                        <img src={prototype2f4} alt="Prototype #2 Choose User Profile" style={{width: '17%'}}/>
+                        <img src={prototype2f5} alt="Prototype #2 Upload Picture for Companion" style={{width: '17%'}}/>
                     </div>
                 </section>
                 <section data-aos="fade-up">
                     <h2>Second Round Interviews</h2>
                     <p>The second round interview follows the same structure as the first. Interviewees are given a refresher of Sonar’s onboarding process followed by a walkthrough of our prototype #2. Next is the user experience phase and lastly, the strengths and weaknesses of each prototype. </p>
                     <p>Compared to our first prototype, interviewees consistently noted that Prototype #2 felt more polished, intuitive, and engaging. This time, 100% of participants preferred our redesign over Sonar’s original onboarding. Participants appreciated the clarity with data privacy and Sonar’s purpose which helped them grasp the app’s value. The personalization feature was also very well received. Despite the positive response, interviewees pointed out opportunities to refine the experience further such as adjusting font size and spacing to improve readability, shortening the onboarding process, and making minor visual tweaks, such as color changes.</p>
-                    <img src={interview2} alt='Interview Affinity Diagram'style={{width: '60%'}}/>
+                    <img src={interview2} alt='Interview Affinity Diagram 2'style={{width: '60%'}}/>
                 </section>
                 <section data-aos="fade-up">
                     <h2>Final Prototype</h2>
-                    <p>With all of our research and feedback in mind, we created a final prototype that addresses the frustrations and areas of improvement we found. We tweaked our final prototype by increasing and bolding the font size, improving the Sonny personalization flow, and shortening the onboarding process by shortening the Sonny introduction screens.</p>
+                    <p>With all of our research and feedback in mind, we created a final prototype that addresses the frustrations and areas of improvement we found. We tweaked our final prototype by increasing and bolding the font size, improving the Sonny personalization flow, and shortening the onboarding process by omitting some of the Sonny introduction screens.</p>
                     <div className="flex-row-container">
-                        <img src={prototype3f5} alt="Prototype #1 Welcome Page" style={{width: '17%'}}/>
-                        <img src={prototype3f1} alt="Prototype #1 Conversation" style={{width: '17%'}}/>
-                        <img src={prototype3f2} alt="Prototype #1 Conversation" style={{width: '17%'}}/>
-                        <img src={prototype3f3} alt="Prototype #1 Conversation" style={{width: '17%'}}/>
-                        <img src={prototype3f4} alt="Prototype #1 Conversation" style={{width: '17%'}}/>
+                        <img src={prototype3f5} alt="Prototype #3 Welcome to Sonar" style={{width: '17%'}}/>
+                        <img src={prototype3f1} alt="Prototype #3 Meet Sonny" style={{width: '17%'}}/>
+                        <img src={prototype3f2} alt="Prototype #3 Data Privacy" style={{width: '17%'}}/>
+                        <img src={prototype3f3} alt="Prototype #3 Upcoming Events" style={{width: '17%'}}/>
+                        <img src={prototype3f4} alt="Prototype #3 Personalize Sonny" style={{width: '17%'}}/>
                     </div>
                 </section>
                 <section data-aos="fade-up">
