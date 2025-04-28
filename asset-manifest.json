@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.73fae663.css",
-    "main.js": "/static/js/main.7007b7cf.js",
+    "main.js": "/static/js/main.31b0d502.js",
     "static/media/PantryPalImg.png": "/static/media/PantryPalImg.4bf2c60c801741fd81e8.png",
     "static/media/SonarCompetitiveAnalysis.png": "/static/media/SonarCompetitiveAnalysis.8684391cbbf119b1238b.png",
     "static/media/sonarinterviewsr1.png": "/static/media/sonarinterviewsr1.5386c87045f1f168e185.png",
@@ -27,10 +27,10 @@
     "static/media/Prototype1-1.png": "/static/media/Prototype1-1.2103ab324fc44066dbd7.png",
     "index.html": "/index.html",
     "main.73fae663.css.map": "/static/css/main.73fae663.css.map",
-    "main.7007b7cf.js.map": "/static/js/main.7007b7cf.js.map"
+    "main.31b0d502.js.map": "/static/js/main.31b0d502.js.map"
   },
   "entrypoints": [
     "static/css/main.73fae663.css",
-    "static/js/main.7007b7cf.js"
+    "static/js/main.31b0d502.js"
   ]
 }
