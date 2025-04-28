@@ -35,7 +35,7 @@ const Projects = () => {
                     name="Momentum | UCI Designation 2025"
                     imageUrl={MomentumCardImg}
                     description="Productivity in motion - stay on track together by competing"
-                    pageLink="/"
+                    pageLink="/projects/momentum"
                 />
                 <ProjectCard
                     name="Pantry Pal"

@@ -48,3 +48,10 @@ img {
     border-radius: 0.5rem;
     /* optional, if you want rounded images */
 }
+
+.show-dot-ul{
+    list-style-type: disc;
+    text-decoration: dotted;
+    margin-left: 4%;
+    margin-bottom: 1%;
+}
