@@ -6,6 +6,9 @@ import momentumsurveyresults from '../../assets/momentumsurveyresults.png'
 import momentumhifi from '../../assets/momentumhifi.png'
 import momentumlofi from '../../assets/momentumlofi.png'
 import prototype from '../../assets/momentumprototypeplaceholder.png'
+import momentumpersona from '../../assets/momentumpersona.png'
+import momentumassets from '../../assets/momentumassets.png'
+
 
 
 
@@ -44,6 +47,7 @@ const Momentum = () => {
                 <h2>Persona and User Story</h2>
                 <div className="user-story">
                     <p>“As a college student, I want an effective way to motivate myself so that I can consistently complete all my tasks on time and without distractions.”</p>
+                    <img src={momentumpersona} className='one-img' />
                 </div>
             </section>
             <section>
@@ -54,6 +58,7 @@ const Momentum = () => {
             <section>
                 <h2>Assets</h2>
                 <p>I sketched and designed key characters and background elements to help define the app’s branding and visual identity.</p>
+                <img src={momentumassets} className='one-img' />
             </section>
             <section>
                 <h2>High Fidelity Mockups</h2>
