@@ -1,10 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.5d08e5bf.css",
-    "main.js": "/static/js/main.e3b191b7.js",
+    "main.js": "/static/js/main.f2a65c43.js",
     "static/media/PantryPalImg.png": "/static/media/PantryPalImg.4bf2c60c801741fd81e8.png",
+    "static/media/momentumpersona.png": "/static/media/momentumpersona.261c1fc52c7d77fbcf59.png",
     "static/media/momentumhifi.png": "/static/media/momentumhifi.c34f34a85e907e7fd668.png",
     "static/media/SonarCompetitiveAnalysis.png": "/static/media/SonarCompetitiveAnalysis.8684391cbbf119b1238b.png",
+    "static/media/momentumassets.png": "/static/media/momentumassets.812c929730f2e51e8a35.png",
     "static/media/momentumlofi.png": "/static/media/momentumlofi.57d357d3d0786f8021de.png",
     "static/media/sonarinterviewsr1.png": "/static/media/sonarinterviewsr1.5386c87045f1f168e185.png",
     "static/media/momentumprototypeplaceholder.png": "/static/media/momentumprototypeplaceholder.07c6806339946da13a7d.png",
@@ -32,10 +34,10 @@
     "static/media/Prototype1-1.png": "/static/media/Prototype1-1.2103ab324fc44066dbd7.png",
     "index.html": "/index.html",
     "main.5d08e5bf.css.map": "/static/css/main.5d08e5bf.css.map",
-    "main.e3b191b7.js.map": "/static/js/main.e3b191b7.js.map"
+    "main.f2a65c43.js.map": "/static/js/main.f2a65c43.js.map"
   },
   "entrypoints": [
     "static/css/main.5d08e5bf.css",
-    "static/js/main.e3b191b7.js"
+    "static/js/main.f2a65c43.js"
   ]
 }
