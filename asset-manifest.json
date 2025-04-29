@@ -1,10 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.73fae663.css",
-    "main.js": "/static/js/main.31b0d502.js",
+    "main.css": "/static/css/main.5d08e5bf.css",
+    "main.js": "/static/js/main.e3b191b7.js",
     "static/media/PantryPalImg.png": "/static/media/PantryPalImg.4bf2c60c801741fd81e8.png",
+    "static/media/momentumhifi.png": "/static/media/momentumhifi.c34f34a85e907e7fd668.png",
     "static/media/SonarCompetitiveAnalysis.png": "/static/media/SonarCompetitiveAnalysis.8684391cbbf119b1238b.png",
+    "static/media/momentumlofi.png": "/static/media/momentumlofi.57d357d3d0786f8021de.png",
     "static/media/sonarinterviewsr1.png": "/static/media/sonarinterviewsr1.5386c87045f1f168e185.png",
+    "static/media/momentumprototypeplaceholder.png": "/static/media/momentumprototypeplaceholder.07c6806339946da13a7d.png",
+    "static/media/momentumsurveyresults.png": "/static/media/momentumsurveyresults.e855ec718ecec54e5d58.png",
+    "static/media/momentumbanner.png": "/static/media/momentumbanner.cf22d6ee637a948e7323.png",
     "static/media/josey-persona.png": "/static/media/josey-persona.6edcd446b90843bcfdc6.png",
     "static/media/nora-persona.png": "/static/media/nora-persona.a5bd982942f799ae589e.png",
     "static/media/sonarinterviewsr2.png": "/static/media/sonarinterviewsr2.4c8289b8a903c2ee99e8.png",
@@ -26,11 +31,11 @@
     "static/media/Prototype1-3.png": "/static/media/Prototype1-3.97c84f25e64acabc9aa7.png",
     "static/media/Prototype1-1.png": "/static/media/Prototype1-1.2103ab324fc44066dbd7.png",
     "index.html": "/index.html",
-    "main.73fae663.css.map": "/static/css/main.73fae663.css.map",
-    "main.31b0d502.js.map": "/static/js/main.31b0d502.js.map"
+    "main.5d08e5bf.css.map": "/static/css/main.5d08e5bf.css.map",
+    "main.e3b191b7.js.map": "/static/js/main.e3b191b7.js.map"
   },
   "entrypoints": [
-    "static/css/main.73fae663.css",
-    "static/js/main.31b0d502.js"
+    "static/css/main.5d08e5bf.css",
+    "static/js/main.e3b191b7.js"
   ]
 }
