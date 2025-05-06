@@ -6,6 +6,7 @@ import Projects from './routes/Projects';
 import Resume from './routes/Resume';
 import SonarOnboarding from './routes/Projects/SonarOnboarding';
 import Momentum from './routes/Projects/Momentum';
+import PantryPal from './routes/Projects/PantryPal';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/resume" element={<Resume/>}/>
         <Route path="/projects/sonar-onboarding" element={<SonarOnboarding/>}/>
         <Route path="/projects/momentum" element={<Momentum/>}/>
+        <Route path="/projects/pantrypal" element={<PantryPal/>}/>
       </Routes>
     </>
   );
