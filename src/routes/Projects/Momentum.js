@@ -8,6 +8,7 @@ import momentumlofi from '../../assets/momentumlofi.png'
 import prototype from '../../assets/momentumprototypeplaceholder.png'
 import momentumpersona from '../../assets/momentumpersona.png'
 import momentumassets from '../../assets/momentumassets.png'
+import { ContactFooter } from '../../components/ContactFooter'
 
 
 
@@ -16,7 +17,6 @@ const Momentum = () => {
     return (
         <div>
             <NavBar />
-            <hr />
             <div className='project-body-title'>
                 <h1>Momentum | UCI Designation 2025 </h1>
                 <img src={momentumbanner} className='one-img' />
@@ -63,11 +63,12 @@ const Momentum = () => {
             <section>
                 <h2>High Fidelity Mockups</h2>
                 <p>After going over the team’s low fidelity mockups, we translated everything into high fidelity mockups. In this stage, we agreed on a color palette, defined font style and sizes, and fully rendered visuals to create a realistic user interface. The prototyping is also more thorough and one continuous flow is created to show the entire process from onboarding to using the app’s core features.</p>
-                <div className='flex-row-container' style={{alignItems: 'flex-start'}}>
-                    <img src={prototype} className='one-img' style={{width: '20%'}} />
+                <div className='flex-row-container' style={{ alignItems: 'flex-start' }}>
+                    <img src={prototype} className='one-img' style={{ width: '20%' }} />
                     <img src={momentumhifi} className='one-img' />
                 </div>
             </section>
+            <ContactFooter></ContactFooter>
         </div>
     )
 }

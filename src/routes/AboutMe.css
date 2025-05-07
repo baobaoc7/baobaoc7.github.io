@@ -1,17 +1,63 @@
-.aboutmedescription{
+.aboutmedescription {
+    height: 90%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 15%;
+    margin-top: 13%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
-.profile-svg{
+.profile-svg {
     margin-right: 70px;
     height: auto;
     min-width: 300px;
 }
 
+@media (max-width: 1000px) {
+    .aboutmedescription {
+      flex-direction: column;
+      text-align: center; /* optional: centers the text under the image */
+    }
+    .aboutmedescriptionintro{
+        margin-top: 10%;
+    }
+    .profile-svg {
+        margin-right: 0px;
+    }
+  }
+
 .aboutme-p {
     margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.aboutmedescriptionintro {}
+
+.aboutmedescriptiontextcontainer {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    /* background: linear-gradient(to top, #A1ABFC, #4F557F); */
+    background: #4F557F;
+    padding: 2rem;
+}
+
+.aboutmedescriptiontextcontainer p {
     font-size: 20px;
+    margin-bottom: 7%;
+}
+
+.aboutmedescriptiontext h2 {
+    color: white !important;
+    font-size: 30px;
+}
+
+.aboutmedescriptiontext{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
 }

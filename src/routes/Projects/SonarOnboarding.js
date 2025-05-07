@@ -22,6 +22,7 @@ import prototype3f4 from "../../assets/prototype3f4.png"
 import prototype3f5 from "../../assets/prototype3f5.png"
 import interview1 from "../../assets/sonarinterviewsr1.png"
 import interview2 from "../../assets/sonarinterviewsr2.png"
+import { ContactFooter } from '../../components/ContactFooter';
 
 const SonarOnboarding = () => {
     useEffect(() => {
@@ -34,7 +35,6 @@ const SonarOnboarding = () => {
     return (
         <>
             <NavBar />
-            <hr />
             <div className='project-body-title'>
                 <h1>Sonar Mental Health | Onboarding </h1>
                 <p className='project-title-description'>Redesigning Sonar’s onboarding process to improve user retention.</p>
@@ -144,6 +144,7 @@ const SonarOnboarding = () => {
                     <p>If I were to continue this project into the future, I would expand user testing to a larger and more diverse group of people, like local schools and university outreach programs. I would also like to reach out to people who specifically have struggled with their mental health to get specific insights on their experience with the Sonar app. I’m also interested in exploring additional features beyond just the ability to chat with a person, such as a mood tracker, mental health resources, and minigames.</p>
                 </section>
             </div>
+            <ContactFooter></ContactFooter>
         </>
     )
 }
