@@ -23,7 +23,7 @@ const Projects = () => {
     return (
         <>
             <NavBar />
-            <div className='main-body'>
+            <div className='main-body' style={{ marginBottom: '5rem' }} >
                 <h1>UI/UX Projects</h1>
                 <div className="project-cards-container">
                     <ProjectCard

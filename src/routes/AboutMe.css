@@ -14,6 +14,10 @@
     min-width: 300px;
 }
 
+.p-text{
+    margin: 2rem;
+}
+
 @media (max-width: 1000px) {
     .aboutmedescription {
       flex-direction: column;
