@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavBar } from '../components/NavBar';
 import "./AboutMe.css"
-import { ReactComponent as Profile } from '../assets/AboutMeAvatar.svg';
+import { ReactComponent as Profile } from '../assets/me.svg';
 
 const AboutMe = () => {
   return (

@@ -1,14 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
+
+.nav-container{
+    background: linear-gradient(to right, #3C4062, #0D0A0A);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
 .header {
+    margin-left: 10%;
+    margin-right: 10%;
     display: flex;
-    /* background: linear-gradient(to right, #3C4062, #0D0A0A) !important;  */
     justify-content: space-between;
     align-items: center;
-    /* top:0;
-    left:10%;
-    right:10%;
-    position: fixed; */
     padding: 10px;
     z-index: 999999;
 }
