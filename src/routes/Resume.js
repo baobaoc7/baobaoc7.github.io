@@ -9,7 +9,6 @@ const Resume = () => {
             <div className='main-body'>
             <h1>Resume</h1>
             </div>
-            <ContactFooter></ContactFooter>
         </>
     )
 }

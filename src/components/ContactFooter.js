@@ -25,7 +25,7 @@ export const ContactFooter = () => {
                     LinkedIn Profile
                 </a>
             </div>
-            <Star className="profile-svg" style={{ width: "35px", height: "35px", marginTop: '3rem' }} />
+            <Star className="profile-svg" style={{ width: "35px", height: "35px", marginTop: '3rem', marginBottom: '3rem' }} />
         </footer>
     )
 }

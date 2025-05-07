@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import "./NavBar.css"
 import { IoMenu, IoCloseOutline } from "react-icons/io5";
 import { useState } from 'react';
+import resume from '../assets/Chang_Bao_Resume.pdf';
 
 export const NavBar = () => {
 
@@ -17,7 +18,14 @@ export const NavBar = () => {
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li><Link to="/" style={{ fontWeight: 'normal' }}>About Me</Link></li>
                     <li><Link to="/projects" style={{ fontWeight: 'normal' }}>Projects</Link></li>
-                    <li><Link to="/resume" style={{ fontWeight: 'normal' }}>Resume</Link></li>
+                    <li><a
+                        href={resume}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{ fontWeight: 'normal' }}
+                    >
+                        Resume
+                    </a></li>
                 </ul>
                 <div className='menu-icon' onClick={handleClick}>
                     {click ? (

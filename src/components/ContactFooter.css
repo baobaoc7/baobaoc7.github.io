@@ -1,12 +1,19 @@
 .contact-footer {
-    color: white;
-    padding: 2rem;
-    text-align: center;
-    margin-top: 4rem;
-    margin-bottom: 2rem;
-  }
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  background: linear-gradient(to left, #3C4062, #0D0A0A);
+  box-sizing: border-box;
+}
   
   .contact-title {
+    margin-top: 4rem;
     font-size: 30px !important;
     margin-bottom: 1rem;
   }
@@ -32,3 +39,20 @@
     opacity: 0.8;
   }
   
+
+  @media (max-width: 600px) {
+    .contact-links {
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+  
+    .contact-title {
+      font-size: 24px;
+      padding: 0 1rem;
+    }
+  
+    .contact-link {
+      font-size: 14px;
+    }
+  }
