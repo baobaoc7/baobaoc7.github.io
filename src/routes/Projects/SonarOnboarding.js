@@ -140,7 +140,7 @@ const SonarOnboarding = () => {
                     </section>
                     <section data-aos="fade-up">
                         <h2>Reflection</h2>
-                        <p>Throughout this project, my team and I encountered several challenges that affected our user research and design.</p>
+                        <p>Throughout this project, my team and I encountered a few challenges that affected our user research and design.</p>
                         <p>The prototype was tested on a small sample size, which may not fully capture Sonar’s diverse user base. While we conducted a few interviews from external sources, time constraints, and legal procedures necessary to interview local high school students in Irvine prevented us from gathering as many outside interviewees as we’d hoped. Additionally, the interviews occurred virtually on Zoom, which limited my ability to observe non-verbal cues and assess how interviewees interacted with the prototypes.</p>
                         <p>If I were to continue this project into the future, I would expand user testing to a larger and more diverse group of people, like local schools and university outreach programs. I would also like to reach out to people who specifically have struggled with their mental health to get specific insights on their experience with the Sonar app. I’m also interested in exploring additional features beyond just the ability to chat with a person, such as a mood tracker, mental health resources, and minigames.</p>
                     </section>
