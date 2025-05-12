@@ -7,10 +7,13 @@ import Resume from './routes/Resume';
 import SonarOnboarding from './routes/Projects/SonarOnboarding';
 import Momentum from './routes/Projects/Momentum';
 import PantryPal from './routes/Projects/PantryPal';
+import ScrollToTop from './components/ScrollToTop';
+
 
 function App() {
   return (
     <>
+    <ScrollToTop/>
       <Routes>
         <Route path="/" element={<AboutMe/>}/>
         <Route path="/projects" element={<Projects/>}/>
