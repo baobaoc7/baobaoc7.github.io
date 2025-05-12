@@ -1,6 +1,6 @@
 .card-overlay-container {
   position: relative;
-  width: 85%;
+  width: 90%;
   height: 230px;
   overflow: hidden;
   border-radius: 20px;
@@ -9,6 +9,7 @@
   transform: scale(1);
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
+
 
 .card-overlay-container:hover {
   transform: scale(1.05) !important;

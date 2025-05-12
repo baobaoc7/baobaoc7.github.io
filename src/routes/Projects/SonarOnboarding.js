@@ -49,20 +49,22 @@ const SonarOnboarding = () => {
                     </section>
                     <section>
                         <h2>Background and Identifying the Problem</h2>
-                        <p>Many young people avoid traditional mental health solutions due to stigma, cost, and fear of discussing personal issues with strangers. To address this gap, Sonar Mental Health offers a scalable, school-based platform that provides 24/7 support through a chatbot companion named Sonny. Sonny is designed specifically for students and engages them in friendly, judgment-free mental health conversations.</p>
-                        <p>While teens who try Sonny often find it helpful and comforting, our research uncovered a critical issue: a poor first impression during onboarding can lead users to drop off before receiving any help. In other words, if Sonny doesn’t feel approachable or relevant within the first few interactions, students are likely to walk away—potentially missing out on much-needed support.</p>
-                    </section>
+                        <p>Many young people avoid traditional mental health solutions due to stigma, cost, and fear of discussing personal issues with strangers. To address this gap, Sonar Mental Health offers a chatbot companion named Sonny who can engage with students in friendly, judgment-free mental health conversations.</p>
+                        <p>While teens who try Sonar often find it helpful and comforting, our research uncovered that many students drop the platform at the onboarding. If Sonar doesn’t feel comfortable or approachable, it could drive students to walk away without experiencing the support they need.
+                        </p>              
+                        </section>
                     <section>
                         <h2>Our Approach</h2>
-                        <p>We understand how important a first impression is. That's why my team and I focused on redesigning the onboarding experience. Our goal was to make it feel more personal, intuitive, and emotionally supportive. We held biweekly meetings with the Sonar UX team to present and receive feedback throughout each stage of our research and design process.</p>
+                        <p>We understand how important a first impression is. That's why my team and I focused on redesigning the onboarding experience. Our goal was to make it feel more personal, intuitive, and reliable. We held biweekly meetings with the Sonar UX team to present and receive feedback throughout each stage of our research and design process.</p>
                     </section>
                     <section>
                         <h2>Competitive Analysis</h2>
-                        <p>After identifying our problem, it was time to start the UX process. My team and I looked at 5 similar applications and compared their features with each other. I focused on two applications: GoodTherapy and Betterhelp. Each platform had their limitations, whether they were supported by AI or connected users with licensed mental health professionals. Cost, privacy measures, and user reviews also varied depending on the application. We discovered that half of the applications connect users with real, licensed therapists to provide the utmost support. The other half used AI chatbots with some also having limited licensed therapist services. This calls for a need for a hybrid platform that combines both AI and real-human support which is where Sonar excells.</p>
+                        <p>To understand mental health platforms better, my team and I looked at 5 similar applications to see how they are addressing the gaps with student mental health. I focused on two applications: GoodTherapy and Betterhelp.</p>
                         <img src={CompetitiveAnalysis} alt="Competitive Analysis" data-aos="fade-up" />
                     </section>
                     <section data-aos="fade-up">
                         <h2>User Stories and Personas</h2>
+                        <p>Through our findings, we created two personas to better understand our target users.</p>
                         <div className="flex-row-container">
                             <div className="user-story">
                                 <p>“As a high school student, I want to talk to a trusted person about my feelings so that I can balance managing my emotions, excel in my classes, and engage in extracurricular activities.”</p>
@@ -111,7 +113,7 @@ const SonarOnboarding = () => {
                             <li>Allowing users to personalize Sonny by changing the name and avatar</li>
                             <li>Make it clear that students are interacting with a real person and not an AI bot</li>
                             <li>Modify the questions and answer choices to be more straightforward and inclusive</li>
-                            <li>Add more diverse input methods such as sliders, date scroll, dropdown menus, etc</li>
+                            <li>Include more varieties of input methods such as sliders, date scroll, dropdown menus, etc</li>
                         </ul>
                         <div className="flex-row-container">
                             <img src={prototype2f1} alt="Prototype #2 Meet Sonny" style={{ width: '17%' }} />

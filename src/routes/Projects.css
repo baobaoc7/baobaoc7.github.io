@@ -1,5 +1,15 @@
-.project-cards-container{
+.project-cards-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  @media (min-width: 768px) {
+    .project-cards-container {
+      flex-direction: row;
+    }
+  }
+  

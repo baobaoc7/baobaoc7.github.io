@@ -42,10 +42,12 @@ const Momentum = () => {
                 </section>
                 <section>
                     <h2>Survey Results</h2>
+                    <p>We created a survey to understand our target audience and their learning strategies / experiences so that we can validate and explore all the different ways we can improve productivity. We gathered insights from 17 respondents.</p>
                     <img src={momentumsurveyresults} className='one-img' />
                 </section>
                 <section>
                     <h2>Persona and User Story</h2>
+                    <p>Through our research, we created a persona to represent our target users. We really wanted to narrow down our key features as we had lots of ideas but not enough time to implement them. Our persona helped us understand what features to prioritized as well as how they solve frustrations with task motivation.</p>
                     <div className="user-story">
                         <p>“As a college student, I want an effective way to motivate myself so that I can consistently complete all my tasks on time and without distractions.”</p>
                         <img src={momentumpersona} className='one-img' />
@@ -68,6 +70,11 @@ const Momentum = () => {
                         <img src={prototype} className='one-img' style={{ width: '20%' }} />
                         <img src={momentumhifi} className='one-img' />
                     </div>
+                </section>
+                <section>
+                    <h2>Reflection</h2>
+                    <p>Due to the contraints of a designathon, we were very limited in terms of time and resources. We wanted to ensure that we designed a compelling interface while still having the necessary research to back it up. I had to narrow down our UX to just a survey and a persona. However, if given more time, I would have liked to interview students, create a competitive analysis, and perform some usability testing with our prototype. Testing would have helped us identify any flaws with our product, allowing us to improve and iterate upon feedback.</p>
+                    <p>I'm also happy with how this turned out. This was my very first designathon (and my teammates too!) so I feel really proud that I took the time to create something completely from scratch.</p>
                 </section>
             </div>
             <ContactFooter></ContactFooter>

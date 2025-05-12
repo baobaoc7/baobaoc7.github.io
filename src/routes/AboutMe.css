@@ -14,22 +14,33 @@
     min-width: 300px;
 }
 
-.p-text{
+.p-text {
     margin: 2rem;
 }
 
 @media (max-width: 1000px) {
     .aboutmedescription {
-      flex-direction: column;
-      text-align: center; /* optional: centers the text under the image */
+        flex-direction: column;
+        text-align: center;
+        /* optional: centers the text under the image */
     }
-    .aboutmedescriptionintro{
+
+    .aboutmedescriptionintro {
         margin-top: 10%;
     }
+
     .profile-svg {
         margin-right: 0px;
     }
-  }
+    
+    .aboutmedescriptiontext p{
+        font-size: 16px !important;
+    }
+
+    .aboutmedescriptiontext h1, p{
+        margin-left: 20px !important;
+    }
+}
 
 .aboutme-p {
     margin-bottom: 30px;
@@ -60,8 +71,27 @@
     font-size: 30px;
 }
 
-.aboutmedescriptiontext{
+.aboutmedescriptiontext {
     margin-top: 5%;
     margin-left: 10%;
     margin-right: 10%;
+}
+
+
+.desktop-only {
+    display: block;
+}
+
+.mobile-only {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    .desktop-only {
+        display: none;
+    }
+
+    .mobile-only {
+        display: block;
+    }
 }
