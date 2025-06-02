@@ -19,7 +19,7 @@ const AboutMe = () => {
             <div>
             <h1 style={{ display: 'inline', margin: 0, fontSize: '60px' }}> Bao Chang</h1>
             <p className='aboutme-p'>Sorry, this is an outdated portfolio. Click the button below to see my current portfolio!</p>
-            <button
+            <button onClick={() => window.location.href = 'https://baochang.framer.website/'}
   style={{
     fontSize: '1.25rem',
     padding: '0.75rem 1.5rem',
